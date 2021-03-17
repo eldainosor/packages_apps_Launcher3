@@ -1194,6 +1194,8 @@ public class Launcher extends StatefulActivity<LauncherState>
         } else {
             mOverlayManager.onActivityResumed(this);
         }
+                        
+        LauncherAppState.getInstanceNoCreate().checkIfRestartNeeded();
 
         AbstractFloatingView.closeAllOpenViewsExcept(this, false, TYPE_REBIND_SAFE);
         DragView.removeAllViews(this);
