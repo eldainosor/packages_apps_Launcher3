@@ -159,4 +159,8 @@
     <!-- Parallel space -->
     <string name="laboratory_parallel_space_title">Parallel space</string>
     <string name="laboratory_parallel_space_summary">Allow running multiple instances of the same application in parallel</string>
+
+    <!-- Smartspace -->
+    <string name="smartspace_pref_title">At a Glance</string>
+    <string name="smartspace_pref_summary">Show smartspace at the top of home screen</string>
 </resources>
